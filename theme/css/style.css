@@ -1,0 +1,267 @@
+a:hover,
+a:link,
+a:visited {
+  color: #00f
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body,
+input,
+textarea {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #111;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  letter-spacing: -.5px
+}
+
+body#index {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/mountain-1.jpg);
+  background-size: cover;
+}
+
+#banner h1 {
+  width: 90%;
+  text-align: center;
+  font-weight: 400;
+  padding: 5px 0;
+  margin: 20px auto;
+}
+
+#banner h1,
+#index #menu,
+#index #menu a {
+  color: #fff
+}
+
+#index footer a {
+  color: #f2f2f2
+}
+
+#article .content {
+  color: #000;
+  display: block
+}
+
+#post-list {
+  margin-bottom: 1em;
+  margin-top: 1em
+}
+
+pre {
+  margin: 2em 1em 2em 4em
+}
+
+p img {
+  width: 100%;
+  height: auto
+}
+
+/* .social li {
+  width: auto;
+  max-width: 78px;
+  display: inline-block;
+} */
+
+#index .social svg {
+fill: white;
+width: 62px;
+}
+
+#article .social svg {
+  width: 62px;
+}
+
+#article #menu,
+#article #menu a {
+  color: #000
+}
+
+a:link {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+#article ul li a:link,
+#article ul li a:visited {
+  color: #000;
+  text-decoration: none;
+  line-height: 30px
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit!important
+}
+
+#menu li {
+  margin-top: 10px;
+  display: inline-block;
+}
+#index footer {
+  padding: 10px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+#menu {
+  width: 100%;
+  font-size: 28px;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+}
+
+/* #extras .social {
+  font-size: 62px;
+  margin: 0 auto;
+} */
+
+#menu ul {
+  margin: 0 auto;
+  padding: 0
+}
+
+/* .social ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px;
+  padding: 0
+} */
+
+input.input,
+textarea {
+  font-size: 25px;
+  padding: 10px;
+}
+
+label {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+input.button,
+input.input {
+  width: 90%;
+  margin: 0px;
+  border: 1px solid #000;
+  font-size: 25px;
+  height: 30px;
+  padding: 10px;
+}
+
+input.button {
+  cursor: pointer;
+  align-items: normal;
+  text-align: center;
+  color: buttontext;
+  background: #fff;
+  box-sizing: inherit;
+}
+
+fieldset.field {
+  border: none;
+  width: 90%;
+}
+
+textarea {
+  min-height: 300px;
+  padding: 10px;
+  margin: 0px;
+  width: 90%;
+  resize: vertical;
+  border: 1px solid #000;
+}
+
+@media only screen and (min-width:850px) {
+  #banner {
+    width: 100%;
+    height: 100vh
+  }
+
+  #banner h1 {
+    padding: 5em;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    width: 40%;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+
+  #index footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: right;
+  }
+
+  input.button,
+  input.input {
+    width: 75%;
+    margin: 0;
+    float: right
+  }
+
+  label {
+    top: 40px;
+    position: relative;
+    float: left;
+  }
+
+  textarea {
+    width: 75%;
+    float: right;
+  }
+
+  #menu {
+    width: auto;
+    position: absolute;
+    font-size: 32px;
+    margin: 10px;
+    top: 20px;
+    left: 20px
+  }
+
+  .content {
+    width: 50%;
+    min-width: 660px;
+    margin: 0 auto 2em;
+    top: 150px;
+    position: relative
+  }
+
+  #extras .social {
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+  }
+
+/*  #article .social {
+    display: block;
+  } */
+}

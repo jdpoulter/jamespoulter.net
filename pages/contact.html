@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Contact</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../theme/css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body id="article" class="home">
+        <nav id="menu"><ul>
+            <li><a href="../pages/articles.html">Articles</a></li>
+            <li class="active"><a href="../pages/contact.html">Contact</a></li>
+            <li><a href="../pages/portfolio.html">Portfolio</a></li>
+        </ul></nav><!-- /#menu -->
+<section class="content">
+    
+
+    <form class="form" id="contactform" action="//formspree.io/jdpoulter.journalism@gmail.com" method="POST">
+    <fieldset class="field">
+        <label class="label" for="name"><span class="label-content">Name</span></label>
+        <input class="input" type="text" name="name" placeholder="Name" required>
+    </fieldset>
+    <fieldset class="field">
+        <label class="label" for="_replyto"><span class="label-content">Email</span></label>
+        <input class="input" type="email" name="_replyto" placeholder="example@domain.com" required>
+    </fieldset>
+    <fieldset class="field">
+        <label class="label" for="message"><span class="label-content">Message</span></label>
+        <textarea class="input" name="message" rows="1" placeholder="Message" required></textarea>       
+    </fieldset>
+    <input class="hidden" type="text" name="_gotcha" style="display:none">
+    <input class="hidden" type="hidden" name="_subject" value="Message via http://jamespoulter.net">
+    <fieldset class="field">
+        <input class="button submit" type="submit" value="Send">
+    </fieldset>
+</form>
+
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <ul>
+                        <li><a href="//twitter.com/jdpoulter"><svg><use xlink:href="/theme/images/Twitter.svg"></use></svg></a></li>
+                        <li><a href="//www.instagram.com/jdpoulter/"><svg><use xlink:href="/theme/images/Instagram.svg"></use></svg></a></li>
+                        <li><a href="//www.linkedin.com/in/jdpoulter/"><svg><use xlink:href="/theme/images/LinkedIn.svg"></use></svg></a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+</body>
+</html>
