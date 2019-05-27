@@ -3,17 +3,17 @@
 
 
   <url>
-    <loc>./pages/articles.html</loc>
+    <loc>https://jamespoulter.net/pages/articles.html</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>./pages/contact.html</loc>
+    <loc>https://jamespoulter.net/pages/contact.html</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>./pages/portfolio.html</loc>
+    <loc>https://jamespoulter.net/pages/portfolio.html</loc>
     <priority>1.0</priority>
   </url>
 
