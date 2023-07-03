@@ -2,7 +2,6 @@ html, body{
 font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 background: rgb(57,255,20);
 background: linear-gradient(0deg, rgba(57,255,20,1) 0%, rgba(255,16,240,1) 100%);
-padding: 20px;
 height: 100%;
 }
 h1, {
