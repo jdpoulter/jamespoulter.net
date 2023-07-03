@@ -1,0 +1,28 @@
+body{
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+background: rgb(57,255,20);
+background: linear-gradient(0deg, rgba(57,255,20,1) 0%, rgba(255,16,240,1) 100%);
+padding: 20px;
+}
+h1, {
+  color: #000;
+  font-weight: 900;
+  font-size: xx-large;
+}
+h3,li {
+  color: #000;
+  font-weight: 700;
+  font-size: large;
+}
+ul {
+  padding-left: 0;
+}
+li {
+ display: inline;
+}
+li + li::before {
+    content: " | ";
+}
+a {
+  color: #000;
+}
